@@ -1,7 +1,7 @@
 import React from 'react';
-import WorkImg from '../assets/workImg.jpeg';
-import realEstate from '../assets/realestate.jpg';
 import cryptowatch from '../assets/cryptowatch.PNG';
+import clueo from '../assets/clueo.png';
+import portfolio from '../assets/portfolio-screenshot.png';
 
 const Work = () => {
   return (
@@ -14,6 +14,26 @@ const Work = () => {
                 {/* Container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
                 {/* Grid card item */}
+                <div 
+                style={{backgroundImage:`url(${portfolio})`}} 
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                    {/* hover eff */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl px-4 font-bold text-white tracking-wider'>
+                            React JS Application
+                        </span>
+                        <p className='text-white px-4'>A fully responsive portfolio site built implementing Javascript, React, Tailwind, & React-Scroll. It includes project cards, animations, complete responsiveness, and contact form submission. </p>
+                        <div className='pt-8 text-center'>
+                            <a href='https://deonvisad.github.io/clueo-website/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/DeonVisad/Portfolio'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div 
                 style={{backgroundImage:`url(${cryptowatch})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -34,7 +54,26 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
-                
+                <div 
+                style={{backgroundImage:`url(${clueo})`}} 
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                    {/* hover eff */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl px-4 font-bold text-white tracking-wider'>
+                            React JS Application
+                        </span>
+                        <p className='text-white px-4'>A partial frontend ecommerce site built implementing Javascript, React & Redux. It includes a shopping cart with local storage & product listings. </p>
+                        <div className='pt-8 text-center'>
+                            <a href='https://deonvisad.github.io/clueo-website/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/DeonVisad/clueo-website'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         

@@ -56,17 +56,17 @@ const Navbar = () => {
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0 animate__animated animate__backInLeft animate__delay-5s'>
         <ul>
             <li className= 'w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#53B3CB]'>
-                <a className= 'flex justify-between items-center w-full text-gray-300' href='https://github.com/DeonVisad'>
+                <a className= 'flex justify-between items-center w-full text-white' href='https://github.com/DeonVisad'>
                     Github <FaGithub size={30} />
                 </a>
             </li>
             <li className= 'w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#9dd240]'>
-                <a className= 'flex justify-between items-center w-full text-gray-300' href='https://www.linkedin.com/in/deon-davis-/'>
+                <a className= 'flex justify-between items-center w-full text-white' href='https://www.linkedin.com/in/deon-davis-/'>
                     Linkedin <FaLinkedin size={30} />
                 </a>
             </li>
             <li className= 'w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#F15946]'>
-                <a className= 'flex justify-between items-center w-full text-gray-300' href=''>
+                <a className= 'flex justify-between items-center w-full text-white' href=''>
                     Resume <BsFillPersonLinesFill size={30} />
                 </a>
             </li>
