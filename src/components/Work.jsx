@@ -1,6 +1,7 @@
 import React from 'react';
 import cryptowatch from '../assets/cryptowatch.PNG';
 import clueo from '../assets/clueo.png';
+import happycow from '../assets/happycow.png'
 import portfolio from '../assets/portfolio-screenshot.png';
 
 const Work = () => {
@@ -21,14 +22,14 @@ const Work = () => {
                     {/* hover eff */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl px-4 font-bold text-white tracking-wider'>
-                            React JS Application
+                            Portfolio
                         </span>
                         <p className='text-white px-4'>A fully responsive portfolio site built implementing Javascript, React, Tailwind, & React-Scroll. It includes project cards, animations, complete responsiveness, and contact form submission. </p>
                         <div className='pt-8 text-center'>
                             <a href='https://deonvisad.github.io/clueo-website/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/DeonVisad/Portfolio'>
+                            <a target='_blank' rel='noreferrer' href='https://github.com/DeonVisad/Portfolio/tree/master'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -41,7 +42,7 @@ const Work = () => {
                     {/* hover eff */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl px-4 font-bold text-white tracking-wider'>
-                            React JS Application
+                            CryptoWatch
                         </span>
                         <p className='text-white px-4'>Sign in with test@test.com & password | A crypto tracker built implementing Javascript, React, Tailwind & Firebase.</p>
                         <div className='pt-8 text-center'>
@@ -61,14 +62,34 @@ const Work = () => {
                     {/* hover eff */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl px-4 font-bold text-white tracking-wider'>
-                            React JS Application
+                            Clueo ecommerce
                         </span>
                         <p className='text-white px-4'>A partial frontend ecommerce site built implementing Javascript, React & Redux. It includes a shopping cart with local storage & product listings. </p>
                         <div className='pt-8 text-center'>
-                            <a href='https://deonvisad.github.io/clueo-website/'>
+                            <a href='https://clueo.netlify.app/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href='https://github.com/DeonVisad/clueo-website'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div 
+                style={{backgroundImage:`url(${happycow})`}} 
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                    {/* hover eff */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl px-4 font-bold text-white tracking-wider'>
+                            Happy Cow
+                        </span>
+                        <p className='text-white px-4'>A partial frontend ecommerce site built implementing Javascript, React & Redux. It includes a shopping cart with local storage & product listings. </p>
+                        <div className='pt-8 text-center'>
+                            <a href='https://clueo.netlify.app/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/DeonVisad/clueo-website/tree/phase1'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
