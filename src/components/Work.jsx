@@ -27,9 +27,9 @@ const Work = () => {
                         </span>
                         <p className='text-white px-4'>A fully responsive portfolio site built implementing Javascript, React, Tailwind, & React-Scroll. It includes project cards, animations, complete responsiveness, and contact form submission. </p>
                         <div className='pt-8 text-center'>
-                            <a href='https://deonvisad.github.io/clueo-website/'>
+                            
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
+                            
                             <a target='_blank' rel='noreferrer' href='https://github.com/DeonVisad/Portfolio/tree/master'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
@@ -87,10 +87,10 @@ const Work = () => {
                         </span>
                         <p className='text-white px-4'>Happy Cow is a delightful Dairy-Free Recipe Application developed in React JS and styled using Tailwind CSS. This app is designed to help users discover and explore a wide range of dairy-free recipes that are not only delicious but also healthy. </p>
                         <div className='pt-8 text-center'>
-                            <a href='https://clueo.netlify.app/'>
+                            <a href='https://thehappycow.netlify.app/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/DeonVisad/clueo-website/tree/phase1'>
+                            <a href='https://github.com/DeonVisad/HappyCow'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
