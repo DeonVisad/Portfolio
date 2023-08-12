@@ -5,6 +5,7 @@ import JavaScript from '../assets/javascript.png'
 import ReactImg from '../assets/react.png'
 import Github from '../assets/github.png'
 import Node from '../assets/node.png'
+import Redux from '../assets/reduxlogo.png'
 
 const Skills = () => {
   return (
@@ -36,6 +37,10 @@ const Skills = () => {
                 <div className='shadow-md hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={ReactImg} alt='React icon' />
                     <p className='my-4'>REACT</p>
+                </div>
+                <div className='shadow-md hover:scale-110 duration-500'>
+                    <img className='w-20 mx-auto' src={Redux} alt='Redux icon' />
+                    <p className='my-4'>REDUX</p>
                 </div>
                 <div className='shadow-md hover:scale-110 duration-500'>
                     <img className='w-20 mx-auto' src={Github} alt='Github icon' />

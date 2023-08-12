@@ -3,6 +3,7 @@ import cryptowatch from '../assets/cryptowatch.PNG';
 import clueo from '../assets/clueo.png';
 import happycow from '../assets/happycow.png'
 import portfolio from '../assets/portfolio-screenshot.png';
+import swiftvue from '../assets/swiftvue.png'
 
 const Work = () => {
   return (
@@ -84,12 +85,33 @@ const Work = () => {
                         <span className='text-2xl px-4 font-bold text-white tracking-wider'>
                             Happy Cow
                         </span>
-                        <p className='text-white px-4'>A partial frontend ecommerce site built implementing Javascript, React & Redux. It includes a shopping cart with local storage & product listings. </p>
+                        <p className='text-white px-4'>Happy Cow is a delightful Dairy-Free Recipe Application developed in React JS and styled using Tailwind CSS. This app is designed to help users discover and explore a wide range of dairy-free recipes that are not only delicious but also healthy. </p>
                         <div className='pt-8 text-center'>
                             <a href='https://clueo.netlify.app/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href='https://github.com/DeonVisad/clueo-website/tree/phase1'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div 
+                style={{backgroundImage:`url(${swiftvue})`}} 
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                    {/* hover eff */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl px-4 font-bold text-white tracking-wider'>
+                            SwiftVue
+                        </span>
+                        <p className='text-white px-4'>A landing page for a concept campaign management dashboard called SwiftVue </p>
+                        <div className='pt-8 text-center'>
+                            <a href='https://swiftvue.netlify.app/'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/DeonVisad/swiftvue'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
