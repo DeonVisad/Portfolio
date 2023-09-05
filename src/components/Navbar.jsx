@@ -11,26 +11,26 @@ const Navbar = () => {
     const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#002029] text-gray-300'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#002029] text-white'>
         <div className='animate__animated animate__fadeIn animate__delay-4s'>
             <img src={Logo} alt="Logo Image" style={{width: '100px'}} />
         </div>
     
         {/* menu */}
             <ul className='hidden md:flex animate__animated animate__fadeIn animate__delay-4s'>
-                <li>
+                <li className='hover:text-[#B5F44A]'>
                 <Link to='home' smooth={true} duration={500}>Home</Link> 
                 </li>
-                <li>
+                <li className='hover:text-[#53B3CB]'>
                 <Link to='about' smooth={true} duration={500}>About</Link> 
                 </li>
-                <li>
+                <li className='hover:text-[#F15946]'>
                 <Link to='skills' smooth={true} duration={500}>Skills</Link> 
                 </li>
-                <li>
+                <li className='hover:text-[#E01A4F]'>
                 <Link to='work' smooth={true} duration={500} offset={-50} >Work</Link> 
                 </li>
-                <li>
+                <li className='hover:text-[#B5F44A]'>
                 <Link to='contact' smooth={true} duration={500}>Contact</Link> 
                 </li>
             </ul>
