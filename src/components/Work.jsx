@@ -1,6 +1,6 @@
 import React from 'react';
 import cryptowatch from '../assets/cryptowatch.PNG';
-import clueo from '../assets/clueo.png';
+import clueo from '../assets/clueoRevamp.png';
 import happycow from '../assets/happycow.png'
 import portfolio from '../assets/portfolio-screenshot.png';
 import swiftvue from '../assets/swiftvue.png'
@@ -67,7 +67,7 @@ const Work = () => {
                         </span>
                         <p className='text-white px-4'>A partial frontend ecommerce site built implementing Javascript, React & Redux. It includes a shopping cart with local storage & product listings. </p>
                         <div className='pt-8 text-center'>
-                            <a href='https://clueo.netlify.app/'>
+                            <a href='https://clueocandles.netlify.app/'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href='https://github.com/DeonVisad/clueo-website'>
