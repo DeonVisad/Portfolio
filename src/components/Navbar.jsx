@@ -66,7 +66,7 @@ const Navbar = () => {
                 </a>
             </li>
             <li className= 'w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#F15946]'>
-                <a className= 'flex justify-between items-center w-full text-white' href=''>
+                <a className= 'flex justify-between items-center w-full text-white' href="https://resume.io/r/XxFFYKyYO">
                     Resume <BsFillPersonLinesFill size={30} />
                 </a>
             </li>
