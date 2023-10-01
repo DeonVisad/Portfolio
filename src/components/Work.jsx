@@ -4,6 +4,7 @@ import clueo from '../assets/clueoRevamp.png';
 import happycow from '../assets/happycow.png'
 import portfolio from '../assets/portfolio-screenshot.png';
 import swiftvue from '../assets/swiftvue.png'
+import realty from '../assets/JHco.png'
 
 const Work = () => {
   return (
@@ -16,6 +17,28 @@ const Work = () => {
                 {/* Container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-2 gap-4'>
                 {/* Grid card item */}
+
+                <div 
+                style={{backgroundImage:`url(${realty})`}} 
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                    {/* hover eff */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl px-4 font-bold text-white tracking-wider'>
+                            Jennifer Henderson Realty
+                        </span>
+                        <p className='text-white text-sm px-4'>A realtor's personal website. | Designed with ReactJS, TailwindCSS, & React Transition Group.</p>
+                        <div className='pt-8 text-center'>
+                            <a href='https://jenniferhenderson.co' target='_blank' rel='noreferrer'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href='https://github.com/DeonVisad/jh-realty' target='_blank' rel='noreferrer'>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div 
                 style={{backgroundImage:`url(${portfolio})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -47,10 +70,10 @@ const Work = () => {
                         </span>
                         <p className='text-white text-sm px-4'>A landing page for a concept campaign management dashboard called SwiftVue </p>
                         <div className='pt-8 text-center'>
-                            <a href='https://swiftvue.netlify.app/'>
+                            <a href='https://swiftvue.netlify.app/' target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/DeonVisad/swiftvue'>
+                            <a href='https://github.com/DeonVisad/swiftvue' target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -67,10 +90,10 @@ const Work = () => {
                         </span>
                         <p className='text-white text-sm px-4'>A partial frontend ecommerce site built implementing Javascript, React & Redux. It includes a shopping cart with local storage & product listings. </p>
                         <div className='pt-8 text-center'>
-                            <a href='https://clueocandles.netlify.app/'>
+                            <a href='https://clueocandles.netlify.app/' target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/DeonVisad/clueo-website'>
+                            <a href='https://github.com/DeonVisad/clueo-revamp' target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -87,36 +110,17 @@ const Work = () => {
                         </span>
                         <p className='text-white text-sm px-4'>Happy Cow is a delightful Dairy-Free Recipe Application developed in React JS and styled using Tailwind CSS. This app is designed to help users discover and explore a wide range of dairy-free recipes that are not only delicious but also healthy. </p>
                         <div className='pt-8 text-center'>
-                            <a href='https://thehappycow.netlify.app/'>
+                            <a href='https://thehappycow.netlify.app/' target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href='https://github.com/DeonVisad/HappyCow'>
+                            <a href='https://github.com/DeonVisad/HappyCow' target='_blank' rel='noreferrer'>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
                     </div>
                 </div>
 
-                <div 
-                style={{backgroundImage:`url(${cryptowatch})`}} 
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
-
-                    {/* hover eff */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl px-4 font-bold text-white tracking-wider'>
-                            CryptoWatch
-                        </span>
-                        <p className='text-white text-sm px-4'>Sign in with test@test.com & password | A crypto tracker built implementing Javascript, React, Tailwind & Firebase.</p>
-                        <div className='pt-8 text-center'>
-                            <a href='https://deonvisad.github.io/cryptoWatch/'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href='https://github.com/DeonVisad/cryptoWatch'>
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
         
